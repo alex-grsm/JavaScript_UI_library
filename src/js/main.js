@@ -1,3 +1,11 @@
-import './lib/lib';
+import $ from './lib/lib';
 
-$('.active').toggle();
+$('.btn').on('click', function () {
+    $(this).toggleClass('active');
+});
+
+$('.active').addAttr('data-value', 'haha');
+
+// function seyHello() {
+//     console.log('Hello');
+// }
