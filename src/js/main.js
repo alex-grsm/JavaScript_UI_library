@@ -21,10 +21,10 @@ $('div').click(function () {
 // console.log($('.some').closest('.findMe').addClass('gdfgdf'));
 // console.log(document.querySelector('.some').closest('.findMe'));
 
-
 // console.log($('.more').eq(0).siblings());
-console.log($('.findMe').siblings());
+// console.log($('.findMe').siblings());
 
-  
+// $('.findMe').fadeOut(1800);
+$('.findMe').fadeIn(2800);
   
   
