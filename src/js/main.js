@@ -17,4 +17,14 @@ $('div').click(function () {
 });
 
 
-console.log($('div').eq(2).find('.some'));
+// console.log($('div').eq(2).find('.some'));
+// console.log($('.some').closest('.findMe').addClass('gdfgdf'));
+// console.log(document.querySelector('.some').closest('.findMe'));
+
+
+// console.log($('.more').eq(0).siblings());
+console.log($('.findMe').siblings());
+
+  
+  
+  
