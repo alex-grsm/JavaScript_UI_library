@@ -1,30 +1,14 @@
 import $ from './lib/lib';
 
-$('.btn').on('click', function () {
-    $('div').eq(1).toggleClass('active');
+$('#first').on('click', () => {
+    $('div').eq(1).fadeOut(800);
 });
 
-$('.active').addAttr('data-value', 'haha');
-
-// function seyHello() {
-//     console.log('Hello');
-// }
-
-// console.log($('.btn').html());
-
-$('div').click(function () {
-    console.log($(this).index());
+$('[data-count="second"]').on('click', () => {
+    $('div').eq(2).fadeOut(800);
 });
 
-
-// console.log($('div').eq(2).find('.some'));
-// console.log($('.some').closest('.findMe').addClass('gdfgdf'));
-// console.log(document.querySelector('.some').closest('.findMe'));
-
-// console.log($('.more').eq(0).siblings());
-// console.log($('.findMe').siblings());
-
-// $('.findMe').fadeOut(1800);
-$('.findMe').fadeIn(2800);
-  
+$('button').eq(2).on('click', () => {
+    $('.w-500').fadeOut(800);
+});
   
